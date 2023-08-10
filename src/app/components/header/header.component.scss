@@ -1,0 +1,39 @@
+.container {
+    height: 5em;
+
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+    &:hover{
+        background-color:  #f0f0f0;
+    }
+}
+.logo{
+    height: 100%;
+    width: 10em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2em;
+}
+.links{
+    height: 100%;
+    width: 50em;
+    display: flex;
+    align-items: center;
+
+    a{
+        margin-left: 1em;
+        text-decoration: none;
+        color: #000;
+        &:hover {
+            color: #ffc107;
+        }
+
+        &.active {
+            color: #ffc107;
+        }
+    }
+   
+    
+}
